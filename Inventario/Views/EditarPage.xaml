@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="Inventario.Views.EditarPage" 
+    Title="Editar" >
+     <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Foto" Clicked="FotoClicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <Label Text="ID" FontAttributes="Bold"></Label>
+                <Entry x:Name="ID" IsReadOnly="True"></Entry>
+                <Label x:Name="ImagemLabel" Text="Imagem" FontAttributes="Bold"></Label>
+                <Image x:Name="Imagem" HorizontalOptions="StartAndExpand" HeightRequest="200"></Image>
+                <Label Text="Origem" FontAttributes="Bold"></Label>
+                <Entry x:Name="Origem"></Entry>
+                <Label Text="Plaqueta" FontAttributes="Bold"></Label>
+                <Entry x:Name="Plaqueta" IsReadOnly="True" ></Entry>
+                <Label Text="DescOriginal" FontAttributes="Bold"></Label>
+                <Entry x:Name="DescOriginal" IsReadOnly="True"></Entry>
+                <Label Text="DescAccount" FontAttributes="Bold"></Label>
+                <Entry x:Name="DescAccount"></Entry>
+                <Label Text="OrigemAccount" FontAttributes="Bold"></Label>
+                <Entry x:Name="OrigemAccount"></Entry>
+                <Label Text="Setor" FontAttributes="Bold"></Label>
+                <Entry x:Name="Setor" IsReadOnly="True"></Entry>
+                <Label Text="SetorAccount" FontAttributes="Bold"></Label>
+                <Entry x:Name="SetorAccount"></Entry>
+                <Label Text="Localidade" FontAttributes="Bold"></Label>
+                <Entry x:Name="Localidade" IsReadOnly="True"></Entry>
+                <Label Text="LocalidadeAccount" FontAttributes="Bold"></Label>
+                <Entry x:Name="LocalidadeAccount"></Entry>
+                <Label Text="CaminhoFoto" FontAttributes="Bold"></Label>
+                <Entry x:Name="CaminhoFoto"></Entry>
+                <Label Text="NroSerie" FontAttributes="Bold"></Label>
+                <Entry x:Name="NroSerie"></Entry>
+                <Label Text="Marca" FontAttributes="Bold"></Label>
+                <Entry x:Name="Marca"></Entry>
+                <Label Text="Modelo" FontAttributes="Bold"></Label>
+                <Entry x:Name="Modelo"></Entry>
+                <Label Text="Obs" FontAttributes="Bold"></Label>
+                <Entry x:Name="Obs"></Entry>
+
+                <Button Text="Gravar" Clicked="GravarClicked" BackgroundColor="#2196F3" Margin="15,10,15,10"></Button>
+                <Button Text="Limpar" Clicked="LimparClicked" BackgroundColor="#2196F3" Margin="15,10,15,10"></Button>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

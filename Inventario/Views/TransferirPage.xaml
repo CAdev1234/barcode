@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Inventario.Views.TransferirPage" Title="Transferir" >
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+
+
+            <Label Text="Antes de Transferir verifique se tem Internet!" FontAttributes="Bold" >
+
+            </Label>
+
+
+            <ActivityIndicator x:Name="ActivityIndicator" IsRunning="False" IsVisible="False"></ActivityIndicator>
+            <Button x:Name="Transferir" Text="Transferir" Clicked="TransferirClicked" BackgroundColor="#2196F3" Margin="15,10,15,10">
+
+            </Button>
+           
+        
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

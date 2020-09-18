@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Inventario.Views.InventarioDetailPage" Title="Detalhe" >
+    <ContentPage.Content>
+
+
+        <ScrollView>
+
+
+            <StackLayout Padding="10">
+                <Label Text="ID" FontAttributes="Bold">
+                </Label>
+                <Label x:Name="ID">
+                </Label>
+
+                <Label x:Name="ImagemLabel" Text="Imagem" FontAttributes="Bold">
+                </Label>
+                <Image x:Name="Imagem" HorizontalOptions="StartAndExpand" HeightRequest="200">
+                    
+                </Image>
+
+                <Label Text="Origem" FontAttributes="Bold">
+                </Label>
+                <Label x:Name="Origem">
+                </Label>
+
+                <Label Text="Plaqueta" FontAttributes="Bold">
+                </Label>
+                <Label x:Name="Plaqueta" FontSize="Micro">
+
+                </Label>
+                <Label Text="DescOriginal" FontAttributes="Bold">
+                </Label>
+                <Label x:Name="DescOriginal" FontSize="Micro">
+
+                </Label>
+
+                <Label Text="DescAccount" FontAttributes="Bold">
+                </Label>
+                <Label x:Name="DescAccount" FontSize="Micro">
+                </Label>
+
+                <Label Text="OrigemAccount" FontAttributes="Bold">
+                </Label>
+                <Label x:Name="OrigemAccount" FontSize="Micro">
+                </Label>
+
+                <Label Text="Setor" FontAttributes="Bold">
+                </Label>
+                <Label x:Name="Setor" FontSize="Micro">
+                </Label>
+
+                <Label Text="SetorAccount" FontAttributes="Bold">
+                </Label>
+                <Label x:Name="SetorAccount" FontSize="Micro">
+                </Label>
+
+                <Label Text="Localidade" FontAttributes="Bold">
+                </Label>
+                <Label x:Name="Localidade" FontSize="Micro">
+                </Label>
+
+                <Label Text="LocalidadeAccount" FontAttributes="Bold">
+                </Label>
+                <Label x:Name="LocalidadeAccount" FontSize="Micro">
+                </Label>
+
+                <Label Text="CaminhoFoto" FontAttributes="Bold">
+                </Label>
+                <Label x:Name="CaminhoFoto" FontSize="Micro">
+                </Label>
+
+                <Label Text="NroSerie" FontAttributes="Bold">
+                </Label>
+                <Label x:Name="NroSerie" FontSize="Micro">
+                </Label>
+
+                <Label Text="Marca" FontAttributes="Bold">
+                </Label>
+                <Label x:Name="Marca" FontSize="Micro">
+                </Label>
+
+                <Label Text="Modelo" FontAttributes="Bold">
+                </Label>
+                <Label x:Name="Modelo" FontSize="Micro">
+                </Label>
+
+                <Label Text="Obs" FontAttributes="Bold">
+                </Label>
+                <Label x:Name="Obs" FontSize="Micro">
+                </Label> 
+
+
+
+            </StackLayout>
+
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+    xmlns:ZXing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms" 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" x:Class="Inventario.Views.ScanPage" 
+    Title="{Binding Title}" 
+    x:Name="BrowseScanPage">
+    <ContentPage.Content>
+        <ZXing:ZXingScannerView 
+            x:Name="zxingScanner"
+            IsScanning="True"
+            OnScanResult="ZXingScanner_OnScanResult"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"
+            IsAnalyzing="True"
+            IsTorchOn="False"
+            IsVisible="True" />
+    </ContentPage.Content>
+</ContentPage>

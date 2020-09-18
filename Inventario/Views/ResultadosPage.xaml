@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="Inventario.Views.ResultadosPage" 
+    Title="Resultados">
+    <ContentPage.Content>
+        <StackLayout Padding="10" VerticalOptions="CenterAndExpand">
+            <Label x:Name="ItemsCount" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"></Label>
+            <Picker Title="Selecione" IsVisible="False" x:Name="ItemsID" WidthRequest="360" HorizontalOptions="CenterAndExpand"></Picker>
+            <Picker Title="Selecione" x:Name="Items" WidthRequest="360" HorizontalOptions="CenterAndExpand"></Picker>
+            <Button Text="OK" Clicked="OkClicked" BackgroundColor="#2196F3" Margin="15,10,15,10"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
