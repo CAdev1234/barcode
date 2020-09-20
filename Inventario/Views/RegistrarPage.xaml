@@ -2,9 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Inventario.Views.RegistrarPage" Title="Registrar">
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand">
-            <Button x:Name="Scanner" Text="Scanner" TextColor="White" BackgroundColor="#ffc34d" Margin="15,10,15,10"/>
-            <Button x:Name="Scan" Text="Leitor Câmera" Clicked="ScanClicked" BackgroundColor="#2196F3" Margin="15,10,15,10"></Button>
-            <Button x:Name="Cadatrar" Text="Cadastrar novo" Clicked="CadastrarClicked" BackgroundColor="#2196F3" Margin="15,10,15,10"></Button>
+            <Button x:Name="Scanner" Text="Scanner" FontSize="22" TextColor="White"  BackgroundColor="#ffc34d" Margin="15,10,15,10"/>
+            <Button x:Name="Scan" Text="Leitor Câmera" TextColor="White" Clicked="ScanClicked" BackgroundColor="#2196F3" Margin="15,10,15,10"></Button>
+            <Button x:Name="Cadatrar" Text="Cadastrar novo" TextColor="White" Clicked="CadastrarClicked" BackgroundColor="#2196F3" Margin="15,10,15,10"></Button>
         </StackLayout>
 
     </ContentPage.Content>

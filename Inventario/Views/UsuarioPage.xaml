@@ -1,22 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Inventario.Views.UsuarioPage" Title="Configurações" >
     <ContentPage.Content>
-
-
-
-          <StackLayout Padding="10">
-
-
-                <Label Text="Usuario" FontAttributes="Bold">
-                </Label>
-                <Entry x:Name="Usuario">
-                </Entry>
-
-                  <Button Text="Gravar" Clicked="GravarClicked" BackgroundColor="#2196F3" Margin="15,10,15,10"></Button>
-
-
-          </StackLayout>
-
-
+        <StackLayout Padding="10">
+            <Label Text="Usuario" FontAttributes="Bold"></Label>
+            <Entry x:Name="Usuario"></Entry>
+            <Button Text="Gravar" Clicked="GravarClicked" TextColor="White" BackgroundColor="#2196F3" Margin="15,10,15,10"></Button>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

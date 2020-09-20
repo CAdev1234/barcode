@@ -16,7 +16,7 @@
         <Entry x:Name="Termo" WidthRequest="200"></Entry>
 
 
-        <Button Text="Aplicar" Clicked="PesquisarClicked" BackgroundColor="#2196F3"></Button>
+        <Button Text="Aplicar" TextColor="White" Clicked="PesquisarClicked" BackgroundColor="#2196F3"></Button>
 
         <ListView x:Name="InventariosListView" ItemsSource="{Binding Inventarios}" VerticalOptions="FillAndExpand" HasUnevenRows="true" RefreshCommand="{Binding LoadInventariosCommand}" IsPullToRefreshEnabled="false" IsRefreshing="{Binding IsBusy, Mode=OneWay}" CachingStrategy="RecycleElement" ItemSelected="OnInventarioSelected">
 
@@ -49,14 +49,14 @@
                             Text="Carregar mais"
                             Command="{Binding LoadMore}"
                             BackgroundColor="#2196F3"
-                            TextColor="Black" />
+                            TextColor="White" />
 
                     <Button x:Name="Recarregar"
                             IsVisible="{Binding MyFlag}"
                             Text="Recarregar"
                             Command="{Binding Recarregar}"
                             BackgroundColor="#2196F3"
-                            TextColor="Black" />
+                            TextColor="White" />
 
 
 

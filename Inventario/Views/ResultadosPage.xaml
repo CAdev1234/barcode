@@ -9,7 +9,7 @@
             <Label x:Name="ItemsCount" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"></Label>
             <Picker Title="Selecione" IsVisible="False" x:Name="ItemsID" WidthRequest="360" HorizontalOptions="CenterAndExpand"></Picker>
             <Picker Title="Selecione" x:Name="Items" WidthRequest="360" HorizontalOptions="CenterAndExpand"></Picker>
-            <Button Text="OK" Clicked="OkClicked" BackgroundColor="#2196F3" Margin="15,10,15,10"></Button>
+            <Button Text="OK" Clicked="OkClicked" FontSize="18" TextColor="White" BackgroundColor="#2196F3" Margin="15,10,15,10"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

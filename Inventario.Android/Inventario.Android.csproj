@@ -46,6 +46,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
+    <Reference Include="Seuic_scanner_xamarin">
+      <HintPath>..\..\..\programming\xamarin\brazil\XAMARIN Android Development- Scanner\MyScaner_xamarin\packages\Seuic_scanner_xamarin.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />

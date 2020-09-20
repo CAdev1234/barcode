@@ -4,6 +4,7 @@ using Plugin.Permissions;
 using Plugin.Permissions.Abstractions;
 using Xamarin.Forms;
 
+
 namespace Inventario.Views
 {
     public partial class RegistrarPage : ContentPage
